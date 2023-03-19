@@ -1,0 +1,52 @@
+.container {
+  display: block;
+}
+.four-elements {
+  display: block;
+}
+#goals .flex,
+#team .flex,
+#primary .flex,
+#timeline .flex,
+.scopes,
+#primary .flex:nth-child(1) {
+  display: block;
+  padding: 0 60px;
+}
+#goals .flex span {
+  padding-bottom: 16px;
+}
+#timeline .flex {
+  margin-bottom: 0;
+}
+
+.in,
+.out {
+  padding-left: 12px;
+}
+
+#goals,
+#team,
+#primary,
+#timeline,
+#scopes {
+  padding-bottom: 12px;
+}
+
+#scopes,
+#goals,
+#team,
+#primary {
+  margin-bottom: 12px;
+}
+
+span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#timeline span {
+  text-align: start;
+  padding-bottom: 4px !important;
+}

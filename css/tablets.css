@@ -1,0 +1,23 @@
+.nav-info {
+  display: none;
+}
+nav {
+  justify-content: space-between;
+}
+nav a {
+  padding: 12px 44px;
+}
+
+#certificate .col-sm-6 {
+  display: flex;
+  flex-direction: column;
+}
+#certificate .col-sm-6 img {
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+#project p {
+  font-size: 14px;
+  text-align: center;
+}

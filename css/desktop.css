@@ -1,0 +1,213 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover,
+#footer a:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #387feb;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* Ẩn thông tin phần info */
+.hide-content {
+  display: none;
+}
+
+/* Ản thông tin phần Job Info */
+.control-view {
+  display: none;
+}
+
+/* Banner */
+#banner {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Nav Bar */
+nav {
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 24px 60px;
+}
+
+nav .nav-info {
+  border: 1px solid #ccc;
+  line-height: 20px;
+}
+
+/* Ẩn thông tin user trước khi submit email */
+#personal-info .section-content {
+  display: none;
+}
+
+/* Lỗi khi nhập sai email */
+#error-email {
+  color: red;
+  font-weight: 700;
+}
+
+/*About */
+#target p {
+  text-align: justify;
+}
+
+#personal-info span {
+  font-weight: bold;
+}
+
+/* Css Nút Submit Email */
+.submit-email input {
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  margin-top: 16px;
+}
+
+.submit-email input:hover,
+.submit-email input:focus {
+  border: 1px solid #29abf7;
+  outline: 1px solid #29abf7;
+}
+
+/* Job Info */
+#job-info .col-lg-3 {
+  border: 2px solid #ccc;
+}
+
+/* Dấu chấm tròn màu xanh */
+.info-content {
+  position: relative;
+}
+.info-content b::before {
+  content: "";
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 20px;
+  border-radius: 50%;
+  left: -4px;
+}
+
+.info-content b::after {
+  content: "";
+  background-color: #3f9fec;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 22px;
+  left: -2px;
+  border-radius: 100%;
+}
+
+/* Hobby */
+.hobby-icon i {
+  color: var(--bs-primary);
+  padding: 8px;
+  border: 1px solid var(--bs-primary);
+  border-radius: 50%;
+}
+
+/* Thanh đánh dấu level */
+.language span,
+.skill span {
+  display: inline-block;
+  margin-right: 6px;
+  background-color: var(--bs-primary);
+  width: 40px;
+  height: 2px;
+}
+
+/* Certificate */
+#certificate .col-sm-6 {
+  display: flex;
+}
+
+#certificate .col-sm-6 img {
+  width: 50%;
+  padding-right: 20px;
+}
+
+#certificate .col-sm-6 b {
+  text-transform: uppercase;
+}
+
+#certificate .col-sm-6:nth-child(3),
+#certificate .col-sm-6:nth-child(4) {
+  border-top: 1px solid #d6c08d;
+  margin-top: 20px;
+  padding: 20px 12px;
+}
+#certificate .col-sm-6:nth-child(2) {
+  border-left: 1px solid #d6c08d;
+}
+
+/* Project */
+#project img {
+  width: 100%;
+}
+#project b {
+  display: block;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#project span {
+  background-color: #199cdb;
+  padding: 8px 10px;
+  border-radius: 35%;
+}
+
+#project .col {
+  background-color: #f8dabd;
+  border-bottom: 1px solid #ccc;
+}
+#project tr,
+#project b {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+#project tr:nth-last-child(1) {
+  border-bottom: none;
+}
+
+#project td {
+  padding: 8px;
+}
+
+.d-flex p {
+  margin-bottom: 0 !important;
+}
+
+/* Footer */
+#footer .container-fluid {
+  height: 80px;
+  padding-top: 32px;
+}
+
+#footer a {
+  text-decoration: none;
+}

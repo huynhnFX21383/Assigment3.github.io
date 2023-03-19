@@ -1,0 +1,54 @@
+/* Bố cục lại theo Tablets */
+.container {
+  display: block;
+}
+.four-elements {
+  display: block;
+}
+#goals .flex,
+#team .flex,
+#primary .flex,
+#timeline .flex,
+.scopes {
+  display: block;
+  padding-left: 16px;
+}
+#goals .flex span {
+  padding-bottom: 16px;
+}
+#timeline .flex {
+  margin-bottom: 0;
+}
+
+.in,
+.out {
+  padding-left: 12px;
+}
+
+#goals,
+#team,
+#primary,
+#timeline {
+  padding-bottom: 12px;
+}
+
+#scopes,
+#goals,
+#team,
+#primary {
+  margin-bottom: 12px;
+}
+
+#primary .flex:nth-child(1) {
+  padding: 12px;
+}
+
+span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#timeline span {
+  text-align: start;
+}

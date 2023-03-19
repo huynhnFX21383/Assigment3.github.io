@@ -1,0 +1,104 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h4 {
+  margin: 0 12px;
+  padding: 20px;
+  border-bottom: 1px solid #acacac;
+}
+
+.flex {
+  display: flex;
+  justify-content: start;
+  padding-top: 8px;
+  margin: 0 12px;
+}
+
+i {
+  font-size: 28px;
+}
+
+/* Bố cục tổng thể */
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 12px;
+  justify-content: center;
+}
+
+.four-elements {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+  grid-auto-flow: row;
+}
+
+#team {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+/* Goals */
+#goals .flex {
+  border-bottom: 1px solid #ccc;
+}
+
+#goals .flex span {
+  padding: 20px 40px;
+}
+
+#team .flex span,
+#primary .flex span {
+  padding: 12px 24px;
+}
+
+#primary .flex:nth-child(1) {
+  padding: 40px 0;
+}
+
+/* Scopes */
+.scopes {
+  display: flex;
+  padding: 24px;
+  gap: 24px;
+}
+
+#scopes b {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Time line css */
+#timeline .flex div {
+  border-bottom: 1px dotted #50ebeb;
+}
+
+#timeline .flex span {
+  padding: 28px 28px;
+}
+
+/* Background bao icon */
+#timeline span {
+  position: relative;
+}
+#timeline span::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: rgba(119, 22, 247, 0.2);
+  background-size: cover;
+  position: absolute;
+  top: 22px;
+  left: 17px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
